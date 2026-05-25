@@ -42,14 +42,14 @@ uvicorn main:app --reload
 ---
 
 ## Chatbot
-![Chatbot](Screenshot%202026-05-25%20155945.png)
+![Chatbot](Screenshot%202026-05-25%20160209.png)
 
 ---
 
 ## Login System
-![Login](Screenshot%202026-05-25%20160016.png)
+![Login](Screenshot%202026-05-25%20155923.png)
 
 ---
 
 ## Study Planner
-![Planner](Screenshot%202026-05-25%20160209.png)
+![Planner](Screenshot%202026-05-25%20155945.png)
