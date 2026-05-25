@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Study Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AI Study Assistant</h1>
+
+    <h3 id="welcomeUser"></h3>
+
+    <button onclick="logout()">
+        Logout
+    </button>
+
+    <button onclick="toggleTheme()">
+        Toggle Theme
+    </button>
+    
+    <div class="container">
+
+        <h1>AI Study Assistant</h1>
+
+        <h3 id="welcomeUser"></h3>
+
+        <button onclick="logout()">
+            Logout
+        </button>
+
+        <div class="card">
+
+            <h2>User Authentication</h2>
+
+            <input type="text" id="username" placeholder="Enter Username">
+
+            <br><br>
+
+            <input type="password" id="password" placeholder="Enter Password">
+
+            <br><br>
+
+            <button onclick="signup()">
+                Signup
+            </button>
+
+            <button onclick="login()">
+                Login
+            </button>
+
+        </div>
+
+        <div class="card">
+            <h2>Study Planner</h2>
+
+            <input type="text" id="taskInput" placeholder="Enter study task">
+
+            <button onclick="addTask()">Add Task</button>
+
+            <ul id="taskList"></ul>
+
+        </div>
+
+        <div class="card">
+            <h2>DSA Tracker</h2>
+            <p>Track coding progress and consistency.</p>
+            <button>Track Progress</button>
+        </div>
+
+        <div class="card">
+
+            <h2>Pomodoro Timer</h2>
+
+            <h1 id="timer">
+                25:00
+            </h1>
+
+            <button onclick="startTimer()">
+                Start Timer
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Notes Section</h2>
+
+            <textarea id="notesInput" placeholder="Write your notes here..."></textarea>
+
+            <br><br>
+
+            <button onclick="saveNotes()">
+                Save Notes
+            </button>
+
+        </div> 
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+<div class="card">
+
+    <h2>AI Study Chatbot</h2>
+
+    <div id="chatBox"></div>
+
+    <input type="text"
+           id="chatInput"
+           placeholder="Ask something...">
+
+    <button onclick="sendMessage()">
+        Send
+    </button>
+
+</div>

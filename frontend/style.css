@@ -1,0 +1,215 @@
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b,
+        #334155
+    );
+
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+
+.card {
+
+    background: rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255,255,255,0.1);
+
+    padding: 25px;
+
+    margin: 25px 0;
+
+    border-radius: 20px;
+
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+
+    transition: 0.3s;
+}
+
+.card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 12px 35px rgba(0,0,0,0.4);
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+
+    padding: 12px 24px;
+
+    border: none;
+
+    background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #334155
+    );
+    
+    color: white;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    font-weight: bold;
+}
+
+button:hover {
+
+    transform: scale(1.05);
+
+    opacity: 0.9;
+}
+
+
+input {
+    padding: 12px;
+    width: 60%;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: rgba(255,255,255,0.1);
+
+    margin: 10px auto;
+    padding: 12px;
+
+    width: 60%;
+
+    border-radius: 8px;
+}
+
+li button {
+    margin-left: 15px;
+    background-color: crimson;
+}
+
+li button:hover {
+    background-color: darkred;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    font-size: 16px;
+
+    resize: none;
+}
+
+.light-mode {
+    background: white;
+    color: black;
+}
+
+.light-mode .card {
+    background: #f0f0f0;
+    color: black;
+}
+
+.light-mode input,
+.light-mode textarea {
+    background: white;
+    color: black;
+}
+
+.light-mode li {
+    background: #dddddd;
+    color: black;
+}
+
+#chatBox {
+
+    height: 350px;
+
+    overflow-y: auto;
+
+    background-color: rgba(255,255,255,0.08);
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    margin-bottom: 15px;
+
+    text-align: left;
+}
+
+.message {
+
+    margin: 12px 0;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    width: fit-content;
+
+    max-width: 80%;
+}
+
+.user {
+
+    background-color: #4CAF50;
+
+    margin-left: auto;
+}
+
+.bot {
+
+    background-color: #333;
+}
+
+.typing {
+
+    font-style: italic;
+
+    opacity: 0.7;
+}
